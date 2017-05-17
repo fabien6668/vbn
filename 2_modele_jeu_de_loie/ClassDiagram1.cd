@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_2_modele_jeu_de_loie.Joueur">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Joueur.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Position" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_2_modele_jeu_de_loie.Case">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Case.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2_modele_jeu_de_loie.Tablier">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tablier.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LesCases" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_2_modele_jeu_de_loie.CaseBenefique">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaseBenefique.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2_modele_jeu_de_loie.Partie">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAABAAAAAAA=</HashCode>
+      <FileName>Partie.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Gobelet" />
+      <Property Name="Joueur" />
+      <Property Name="Tablier" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_2_modele_jeu_de_loie.Gobelet">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gobelet.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LesDes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_2_modele_jeu_de_loie.De">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>De.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2_modele_jeu_de_loie.CaseMalefique">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaseMalefique.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2_modele_jeu_de_loie.CaseFinale">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaseFinale.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
